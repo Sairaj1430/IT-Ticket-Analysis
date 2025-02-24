@@ -1,33 +1,35 @@
-Key Components of the Analysis:
-Ticket Data Collection:
+This project provides an in-depth IT Ticket Analysis using Microsoft Excel, helping IT support teams track, manage, and analyze service requests effectively. It includes data cleaning, key metrics calculations, visualizations, and an interactive dashboard for actionable insights.
 
-Import IT support ticket data from various sources (Helpdesk tools, databases, Excel sheets).
-Key fields: Ticket ID, Category, Priority, Assigned Team, Status, Created Date, Resolved Date, Resolution Time, and User Feedback.
-Data Cleaning & Formatting:
+📊 Features
+✅ Data Processing: Import & clean IT support ticket data.
+✅ Key Metrics & KPIs:
 
-Remove duplicate entries, fix missing values, and standardize formats.
-Convert date fields to proper formats for accurate calculations.
-KPIs & Metrics Calculation:
+Total Tickets (Open & Closed)
+Average Resolution Time
+Tickets by Priority & Category
+SLA Compliance Rate
+✅ Data Visualization: Pivot tables, trend analysis, charts, and graphs.
+✅ Interactive Dashboard: Filters for Date, Priority, Category, and Agent.
+✅ Performance Tracking: Agent workload & resolution efficiency.
+📂 Project Contents
+📄 IT_Ticket_Analysis.xlsx – Excel file containing data, analysis, and dashboard.
+📊 Pivot Tables & Charts – Visual insights for trend identification.
+📜 Formulas & Automations – Used for KPI calculations.
 
-Total Tickets: Count of all tickets in the dataset.
-Open vs. Closed Tickets: Breakdown of resolved and pending tickets.
-Average Resolution Time: Time taken to resolve tickets, calculated using:
-Resolution Time = Resolved Date - Created Date
-Tickets by Priority: High, Medium, Low categorization for workload distribution.
-Tickets by Category: Common issues like software, hardware, network, and access requests.
-Agent Performance: Number of tickets resolved by each support team or agent.
-Pivot Tables & Charts for Visualization:
+🚀 How to Use
+1️⃣ Download the Excel file from the repository.
+2️⃣ Import IT ticket data (or use sample data provided).
+3️⃣ Use Pivot Tables & Charts to analyze trends.
+4️⃣ Explore the Dashboard for a quick overview of key insights.
+5️⃣ Customize filters to deep-dive into specific data points.
 
-Ticket Trends Over Time: Line chart to show ticket volume per day/week/month.
-Resolution Time Analysis: Histogram or bar chart to identify delays in resolution.
-Agent Workload Distribution: Pie chart to see ticket distribution among agents.
-SLA Compliance Rate: Percentage of tickets resolved within SLA (Service Level Agreement).
-Dashboard Creation:
+📈 Benefits
+✔ Improves IT Support Efficiency
+✔ Enhances Data-Driven Decision Making
+✔ Identifies Performance Bottlenecks
+✔ Optimizes Resolution Time & SLA Compliance
 
-Interactive dashboard with slicers to filter by date, priority, category, and agent.
-Summary metrics and visualizations for quick insights.
-Benefits of IT Ticket Analysis in Excel:
-✅ Improves Efficiency: Identifies slow resolution areas and helps in workload balancing.
-✅ Enhances Decision-Making: Data-driven insights for improving IT support services.
-✅ Tracks Performance: Helps in monitoring agent productivity and SLA adherence.
-✅ Reduces Downtime: Identifies recurring issues for proactive resolution.
+📌 Future Enhancements
+🔹 Integration with Power BI for advanced analytics.
+🔹 Automation using Macros & VBA for real-time updates.
+🔹 Connecting to a database for dynamic data import.
